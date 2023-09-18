@@ -16,3 +16,7 @@ function removeDuplicates(arr) {
 
   return arr.length;
 }
+
+var ar = [10, 20, 20, 30, 30, 30];
+removeDuplicates(ar);
+console.log(ar);
