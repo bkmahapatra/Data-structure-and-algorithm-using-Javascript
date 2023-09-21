@@ -1,5 +1,5 @@
 /*
- * To calculate frequency
+ * To calculate frequency in a sorted array
  */
 function frequency(arr) {
   let frequencies = {};
