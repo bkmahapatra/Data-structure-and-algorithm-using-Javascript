@@ -1,5 +1,5 @@
 /* A positive integer is called an Armstrong number (of order n) if
-abcd... = an + bn + cn + dn + ... */
+abcd... = a^n + b^n + c^n + d^n + ... */
 // armstrong numbers of n digit
 function isArmstrong(num) {
   let temp = num,
