@@ -19,7 +19,7 @@ function printKDist<T>(root: Node<T> | null, dist: number): void {
   }
 
   if (dist === 0) {
-    console.log(root.key);
+    console.log(root.data);
   } else {
     printKDist(root.left, dist - 1);
     printKDist(root.right, dist - 1);

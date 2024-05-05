@@ -8,7 +8,7 @@ import Node from "./binaryTree";
 function inOrderTraversal<T>(root: Node<T> | null) {
   if (root !== null) {
     inOrderTraversal(root.left);
-    console.log(root.key);
+    console.log(root.data);
     inOrderTraversal(root.right);
   }
 }

@@ -9,7 +9,7 @@ function postOrderTraversal<T>(root: Node<T> | null) {
   if (root !== null) {
     postOrderTraversal(root.left);
     postOrderTraversal(root.right);
-    console.log(root.key);
+    console.log(root.data);
   }
 }
 

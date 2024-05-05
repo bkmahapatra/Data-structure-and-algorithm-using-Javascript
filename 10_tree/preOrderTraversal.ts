@@ -7,7 +7,7 @@ import Node from "./binaryTree";
 
 function preOrderTraversal<T>(root: Node<T> | null) {
   if (root !== null) {
-    console.log(root.key);
+    console.log(root.data);
     preOrderTraversal(root.left);
     preOrderTraversal(root.right);
   }
