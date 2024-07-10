@@ -18,7 +18,7 @@ function leftRotate(arr) {
 // console.log(test);
 
 // left rotate  by d
-function leftRotateByD(arr, d) {
+function leftRotateByK(arr, d) {
   let temp = [];
 
   for (let i = 0; i < d; i++) {
@@ -39,10 +39,19 @@ leftRotateByD2(test, 4);
 console.log(test);
 
 // reverse
-function leftRotateByD2(arr, d) {
+// Step 1: Reverse the first k elements
+// Step 2: Reverse the rest of the array
+// Step 3: Reverse the entire array
+function leftRotateByK2(arr, k) {
   const n = arr.length;
-  reverseArr(arr, 0, d - 1);
-  reverseArr(arr, d, n - 1);
+  k = k % n;
+
+  if (n <= 1 || k === 0) {
+    return;
+  }
+
+  reverseArr(arr, 0, k - 1);
+  reverseArr(arr, k, n - 1);
   reverseArr(arr, 0, n - 1);
 }
 
