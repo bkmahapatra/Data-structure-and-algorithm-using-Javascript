@@ -1,0 +1,12 @@
+{
+  "name": "data-structure",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "time: θ(n), Aux space: θ(n)\r time: θ(n), Aux space: θ(1)\r time: O(n), aux space: O(1)\r time: O(n), aux space: O(n)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
