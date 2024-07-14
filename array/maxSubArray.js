@@ -2,7 +2,7 @@
  * Maximum sub array
  * time: O(n), aux space: O(1)
  */
-function maxSubAr(arr) {
+export function maxSubAr(arr) {
   let res = arr[0],
     maxEnd = arr[0];
 
