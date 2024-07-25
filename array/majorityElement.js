@@ -1,6 +1,6 @@
 /**
  * If an element in an array of size n appears more than n/2 times.
- *
+ * time: O(n), aux space: O(1)
  */
 function findMajority(arr) {
   const n = arr.length;
